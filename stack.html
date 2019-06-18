@@ -1,0 +1,28 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title></title>
+	<script type="text/javascript">
+		var arrayval =[]
+		function add(){
+			var m=document.getElementById("v1").value
+			arrayval.push(m)
+			show();
+		}
+		
+		function pop(){
+			arrayval.pop()
+			show();
+		}
+		function show(){
+			document.getElementById("print").innerHTML=arrayval;
+		}
+	</script>
+</head>
+<body onload="show()">
+	<p id="print"></p>
+enter no. <input type="te" id="v1">
+<button onclick="add()">push</button></br>
+<button onclick="pop()">pop</button>
+</body>
+</html>
