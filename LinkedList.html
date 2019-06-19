@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>LinkedList Example</title>
+</head>
+<body>
+	<p id="show"></p>
+<input type="text" id="element">
+<button onclick="add()">Add</button>
+<button onclick="showElements()">show</button>
+<button onclick="deleteLast()">delete</button>
+<script type="text/javascript">
+	class Node{
+		constructor(data)
+		{
+			this.data=data;
+			this.next=null;
+		}
+	}
+	class LinkedList{
+		constructor()
+		{
+			this.head=null;
+			this.size=0;
+		}
+		insertData(data){
+		var newNode=new Node(data);
+		if(this.size===0){
+			this.head=newNode;
+		}
+		else{
+			var current=this.head;
+			while(current.next!==null)
+			{
+				current=current.next;
+			}
+			current.next=newNode;
+		
+		}
+		this.size++;
+		return this.head;
+	}
+	show(){
+		var node=new Node();
+		node=this.head;
+		var text="";
+		while(node.next!=null)
+		{
+			text+=node.data+" ";
+			node=node.next;	
+		}
+		text+=node.data+" ";
+		document.getElementById("show").innerHTML=text;
+	} 
+	delete(){
+		var node=new Node();
+		var pre=new Node();
+		node=this.head;
+		pre=this.head;
+		while(node.next!=null)
+		{
+			pre=node;
+			node=node.next;	
+		}
+		pre.next=null;
+		delete node.data;
+		return this.head;;
+	}
+	}
+	var list=new LinkedList();
+	function add(){
+		var data=document.getElementById('element').value;	
+		list.insertData(data);
+		list.show();
+	}
+	function showElements()
+	{
+		list.show();
+	}
+	function deleteLast(){
+		list.delete();
+		list.show();
+	}
+	
+</script>
+</body>
+</html>
