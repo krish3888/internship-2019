@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Stack Example</title>
+	<script type="text/javascript">
+		var queue=[];
+		
+		queue.push(12);
+		queue.push("krish");
+		queue.push("shahi");
+		 document.getElementById("show").innerHTML=queue;
+		 function stackAdd(){
+		 	var ele=document.getElementById('elements').value;
+		 	queue.push(ele);
+		 	document.getElementById("show").innerHTML=queue;
+		 }
+		  function stackDelete(){
+		 	queue.reverse();
+		 	queue.pop();
+		 	queue.reverse();
+		 	document.getElementById("show").innerHTML=queue;
+		 }
+	</script>
+</head>
+<body>
+	<p id="show"></p>
+	<input type="text" id="elements">
+	<button onclick="stackAdd()">Add</button>
+	<button onclick="stackDelete()">Delete</button>
+</body>
+</html>
