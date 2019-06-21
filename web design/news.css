@@ -1,0 +1,49 @@
+#bo{
+	background-color:#A51E10;
+}
+#top .logo{
+	width: 60px;
+}
+
+#l-top{
+	background-color:#DFD1D1;
+	float: left;
+}
+
+
+
+.mid-add{
+	float: left;
+}
+
+#right{
+ float: right;
+     display: inline-grid;
+}
+
+#top{
+	background-color: #B8AAAA;
+	padding: 20px;
+}
+.topl{
+	    float: right;
+    padding: 5px;
+    text-decoration: none;
+}
+
+/*.logo:hover {
+  cursor:not-allowed;
+  transform: scale(2);
+  position: relative;
+  left:50%;
+  z-index: 99;
+  }*/
+
+.logo:leave{
+	cursor:not-allowed;
+}
+
+.so{
+  /* top: 0;
+    display: table-cell;*/
+}
