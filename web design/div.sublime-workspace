@@ -1,0 +1,296 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"no",
+				"not-allowed"
+			],
+			[
+				"fla",
+				"float"
+			],
+			[
+				"s",
+				"style\tAttr"
+			],
+			[
+				"li",
+				"link\tTag"
+			],
+			[
+				"get",
+				"getElementById"
+			],
+			[
+				"al",
+				"alt\tAttr"
+			],
+			[
+				"Boo",
+				"border-bottom"
+			],
+			[
+				"lef",
+				"left"
+			],
+			[
+				"te",
+				"text-align"
+			],
+			[
+				"mar",
+				"margin"
+			],
+			[
+				"font",
+				"font-size"
+			],
+			[
+				"list",
+				"list-style-position"
+			],
+			[
+				"h",
+				"h2\tTag"
+			],
+			[
+				"col",
+				"color"
+			],
+			[
+				"bac",
+				"background-color"
+			],
+			[
+				"met",
+				"meta\tTag"
+			],
+			[
+				"me",
+				"meta\tTag"
+			],
+			[
+				"a",
+				"action\tAttr"
+			],
+			[
+				"re",
+				"Remeber"
+			],
+			[
+				"l",
+				"label\tTag"
+			],
+			[
+				"bl",
+				"black"
+			],
+			[
+				"wi",
+				"width"
+			],
+			[
+				"he",
+				"header\tTag"
+			]
+		]
+	},
+	"buffers":
+	[
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 130.0,
+		"history":
+		[
+			"var a=19/0"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"file_history":
+	[
+		"/C/Users/USER/Desktop/ds/web design/news.html",
+		"/C/Users/USER/Desktop/ds/stack.html",
+		"/C/Users/USER/Desktop/ds/queue.html",
+		"/C/Users/USER/Desktop/ds/LinkedList.html",
+		"/C/Users/USER/Desktop/ds/array.html",
+		"/K/my work done/workshopWD/style.css",
+		"/K/my work done/workshopWD/server.js",
+		"/K/my work done/workshopWD/package-lock.json",
+		"/K/my work done/workshopWD/index.html",
+		"/C/xampp/htdocs/Adventure/about.html",
+		"/C/Users/USER/Downloads/carrental/carrental/index.html",
+		"/C/xampp/htdocs/Adventure/index.html",
+		"/C/Users/USER/Desktop/domain.xml",
+		"/C/Users/USER/Downloads/FreeCoursesOnline.Me-Lynda-Ruby-on-Rails-5-Essential-Training (1).torrent",
+		"/K/my work done/workshopWD/contact.html",
+		"/C/Users/USER/Downloads/carrental/carrental/about.html",
+		"/K/mywork/av project/assg4.html",
+		"/K/mywork/av project/first.js",
+		"/K/mywork/av project/assg4.2.html",
+		"/K/mywork/av project/styleassign2.css",
+		"/C/TURBOC3/SOURCE/KCONDITI.EXE",
+		"/K/my work done/workshopWD/about.html",
+		"/K/my work done/workshopWD/home.html",
+		"/K/my work done/workshopWD/gallery.html",
+		"/C/Users/USER/Desktop/Building Applications with React and Redux in ES6/react-redux-react-router-es6/src/actions/courseActions.js",
+		"/N/Ruby/[FreeTutorials.Us] Udemy - the-complete-ruby-on-rails-developer-course/02 The Ruby Programming Language/016 Introduction to Ruby - Text with directions_ references and code.html",
+		"/C/Users/USER/Desktop/Building Applications with React and Redux in ES6/react-redux-react-router-es6/src/components/course/CoursesPage.js",
+		"/C/Users/USER/Desktop/Building Applications with React and Redux in ES6/react-redux-react-router-es6/src/components/App.js",
+		"/N/Ziggletech/src/index.html",
+		"/N/Ziggletech/src/index.js",
+		"/K/mywork/av project/assg 2.html",
+		"/K/mywork/av project/avwd.html",
+		"/C/AV/Project/web development work.html",
+		"/K/Akash bro/the-complete-web-developer-course-2/13 Python/284 Important A note if youre working with FireFTP.html",
+		"/K/my work done/AV/wrksp1.html",
+		"/C/Users/USER/Pictures/DSC_0229 (2).JPG",
+		"/K/my work done/workshopWD/ser.js",
+		"/K/my work done/workshopWD/firstwebpage.html",
+		"/K/my work done/workshopWD/my.html"
+	],
+	"find":
+	{
+		"height": 23.0
+	},
+	"find_in_files":
+	{
+		"height": 0.0,
+		"where_history":
+		[
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"sheets":
+			[
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 23.0
+	},
+	"input":
+	{
+		"height": 0.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "div.sublime-project",
+	"replace":
+	{
+		"height": 42.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 225.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

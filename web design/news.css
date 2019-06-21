@@ -1,8 +1,12 @@
 #bo{
 	background-color:#A51E10;
+	display: block;
+	margin: 0px
 }
-#top .logo{
-	width: 60px;
+#top .logoClass {
+    width: 60px;
+    float: left;
+    height: 37px;
 }
 
 #l-top{
@@ -12,38 +16,52 @@
 
 
 
-.mid-add{
+#mid-add{
 	float: left;
+	margin: 0px;
 }
 
 #right{
  float: right;
-     display: inline-grid;
+ margin: 0;
+ display: block;
 }
 
 #top{
 	background-color: #B8AAAA;
-	padding: 20px;
+	margin: 0px;
+
 }
-.topl{
+#top .topl{
 	    float: right;
-    padding: 5px;
+     width: 70px;
     text-decoration: none;
+    margin: 0px;
+    position: relative;
+    bottom: 30px;
+    z-index: 2;
+
 }
 
-/*.logo:hover {
-  cursor:not-allowed;
-  transform: scale(2);
-  position: relative;
-  left:50%;
-  z-index: 99;
-  }*/
-
-.logo:leave{
-	cursor:not-allowed;
+#logo-center {
+    margin: 0 auto;
+    display: block;
+    width: 126px;
+    visibility: hidden;    
+    /* float: left; */
 }
+
 
 .so{
   /* top: 0;
     display: table-cell;*/
+}
+#ab{
+	float: left;
+	margin: 0px;
+}
+#contact{
+	float: left;
+	margin: 0px;
+
 }

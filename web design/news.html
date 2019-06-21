@@ -3,32 +3,54 @@
 <head>
 	<title></title>
 	<link rel="stylesheet" type="text/css" href="news.css">
-	<!-- <script type="text/javascript">
+	<script type="text/javascript">
 		function mHover(){
-			document.querySelector('.logo').style.left='50%';
-			document.querySelector('.logo').style.display=none;
-
+			document.getElementById('logo').style.visibility="hidden";
+			document.getElementById('logo-center').style.visibility="visible";
 		}
 		function mLeave(){
-			document.querySelector('.logo').style.left=0;
+			document.getElementById('logo').style.visibility="visible";
+			document.getElementById('logo-center').style.visibility="hidden";
 		}
-	</script> -->
+		 function join(){
+			var m;
+			for (i =0; i<3;i++)
+			{
+				document.getElementById("pID").innerHTML+= "top headlines of news</br>";
+			}
+		}
+		setInterval(join,8000);
 
+
+		function about(){
+			document.getElementById("mid-add").style.display="none";
+			document.getElementById("ab").style.display="block";
+			document.getElementById("contact").style.display="none";
+		}
+		function contact(){
+			document.getElementById("mid-add").style.display="none";
+			document.getElementById("ab").style.display="none";
+			document.getElementById("contact").style.display="block";
+		}
+
+	</script>
 </head>
 <body id="bo">		
-<div id="top">
-	<img src="news.png" class="logo" >
-	<time class="g-header__time" datetime="2019-06-21 02:20:01+05:30">
-						Friday, June 21, 2019					
-	</time>
-	
-	<a href="contact.html" class="topl">CONTACT</a>
+   <div id="top">
+ 	<div><img src="news.png" class="logoClass" id="logo" onmouseover="mHover()" onmouseout="mLeave()" >
+	<img src="news.png" id="logo-center" onmouseover="mLeave()" onmouseout="mHover()">
+    </div>
+	<div style="background-color:#CE9257">
 
-	<a href="about.html" class="topl">ABOUT</a>
+	<p class="topl" onclick="contact()">CONTACT</p>
+	<p class="topl" onclick="about()">ABOUT </p>
+
+	 
 	<a href="news.html" class="topl">HOME</a>
+    </div>
 
 </div>
-<div id="l-top" class="so"  style="height:570px; width: 25%" >
+<div id="l-top" class="so"  style="height:570px; width: 30%" >
 		<p>Learn on your schedule with lifetime access and downloadable content! Udemy.Learn Anything. Anywhere. 30M+ Students Enrolled. Risk Free Learning. Affordable Learning. Download To Your Phone. 100,000+ Courses.</p>
 		<h5>Various list are:</h5>
 		<ol>
@@ -39,17 +61,23 @@
 			<li>list5</li>
 		</ol>
 </div>
-<div>
-	<img class="mid-add" src="https://media.giphy.com/media/kjCFOUT3ZIlAA/giphy.gif" style="height: 570px;width:55%">
+<div >
+	<img id="mid-add" src="https://media.giphy.com/media/kjCFOUT3ZIlAA/giphy.gif" style="height: 570px;width:50%;display: block">
 </div>
-<div id="right" class="so">
-<button>news feed</button> 
- 	<a href="news1">news1</a><br>
- 	<a href="news2">news2</a><br>
- 	<a href="news3">news4</a><br>
- 	<a href="news4">news4</a><br>
- 	<a href="news5">news5</a><br>
- 	<a href="news6">news6</a><br>
+<div id="ab" style="height: 570px;width:50%;/* margin-left: 30% ;*/display: none;">
+	<h3>ABOUT</h3>
+	<p> lifetime access and downloadable content! Udemy.Learn Anything. Anywhere. 30M+ Students Enrolled. Risk Free Learning. Affordable Learning. Download To Your Phone</p>
+</div>
+<div id="contact" style="height: 570px;width:50%;display:none;">
+	<h3>CONTACT</h3>
+	<ul>contact:- 8958077145</ul>
+	<ul>email:- krishnashahi@gmail.com</ul>
+	<ul>address:-C-79 first floor near police station ,sector-63,noida</ul>
+</div>
+<div id="right" class="so" style="border: solid;width:20%;border:63px;">
+<h4>NEWS FEED</h4> 
+ 	<p id="pID"></p>
+<button onclick="join()">READ MORE</button>
 </div>
 </body>
 </html>
