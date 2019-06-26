@@ -1,6 +1,8 @@
 #top{
 	background-color:#2078be;
-	}
+	position: relative;
+	left: 35%;
+}
 
 
 #front{
@@ -76,15 +78,18 @@
 	position: relative;
 	top: 10%;
 	font-weight:bolder;
+	margin-right: 31%;
 }
 #usrname{
 	position: relative;
 	top: 10%;
 	text-align: center;
+	left: 45%;
 }
 #usrno{
 	position: relative;
 	top: 10%;
+	left: 15%;
 	text-align: center;
 }
 #okdiv{

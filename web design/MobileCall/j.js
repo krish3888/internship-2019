@@ -1,7 +1,11 @@
 $(document).ready(function(){
 	
-	$("#contactlist").click(function(){
-
+	$(".userinfo").click(function(){
+		var name=$(this).html()
+			$("#usrname").html(name)
+		$("#usrno").css("display","none");
+		$("#usrname").css("display","block")
+	
 		$("#front").css("display","none");
 		$("#next").css("display","block");
 	})
@@ -38,6 +42,7 @@ $(document).ready(function(){
 		else if ($(this).is("#btn9")){
 		    $("#in").val(($("#in").val()+"9"));
 		}
+
 		else if ($(this).is("#btn11")){
 		    $("#in").val(($("#in").val()+"*"));
 		}
@@ -48,9 +53,15 @@ $(document).ready(function(){
 		    $("#in").val(($("#in").val()+"#"));
 		}
 	})
-	$("#callbtn").click(function()){
+	$("#callbtn").click(function(){
 		$("#front").css("display","none");
-		$("#n Next").css("display","block");
-	})         )
-	}
+		$("#next").css("display","block");
+		$("#usrname").css("display","none");
+			$("#usrno").css("display","block");
+		$("#usrno").text($("#in").val());
+		}) 
+	$("#").click(function(){
+
+	})
+
 });
